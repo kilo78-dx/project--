@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เข้าสู่ระบบ | OneSheetHub</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="../pic/logo2.png" alt="OneSheetHub Logo" height="40">
+      <span>OneSheet<br>Hub</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" class="active">หน้าแรก</a></li>
+      <li><a href="register.html">สมัครสมาชิก</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="login-container">
+      <form class="login-form" id="loginForm">
+        <h2>เข้าสู่ระบบ</h2>
+        <div class="input-group">
+          <span class="icon">👤</span>
+          <input type="text" id="loginEmail" placeholder="  อีเมล" required>
+        </div>
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" id="loginPassword" placeholder="รหัสผ่าน" required>
+        </div>
+        <div class="button-group">
+          <button type="button" class="cancel">ยกเลิก</button>
+          <button type="submit" class="submit">ยืนยัน</button>
+        </div>
+        <p class="register-link">หากไม่มีบัญชีผู้ใช้โปรดสมัครสมาชิกก่อน</p>
+        <p id="loginError" style="color:red;text-align:center;"></p>
+      </form>
+    </div>
+    <script type="module" src="../js/login.js"></script>
+  </main>
+</body>
+</html>

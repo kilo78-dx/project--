@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | OneSheetHub</title>
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="../pic/logo2.png" alt="OneSheetHub Logo" height="40">
+      <span>OneSheet<br>Hub</span>
+    </div>
+    <div class="user-info">
+      <span class="icon">&#128276;</span>
+      <span id="userEmail">-</span>
+      <span class="icon">&#128100;</span>
+    </div>
+  </nav>
+  <main>
+    <div class="home-content">
+      <h2>OneSheet HUB</h2>
+      <p>“สรุปเดียว ครบทุกวิชา”</p>
+      <div class="button-group">
+        <button class="view-btn">ดูสรุป</button>
+        <button class="upload-btn">อัปโหลดสรุป</button>
+      </div>
+    </div>
+    <script type="module">
+      document.querySelector('.upload-btn').addEventListener('click', () => {
+        window.location.href = 'upload.html';
+      });
+      document.querySelector('.view-btn').addEventListener('click', () => {
+        window.location.href = 'viewsheet.html';
+      });
+    </script>
+     <script type="module" src="../js/home.js"></script>
+  </main>
+</body>
+</html>

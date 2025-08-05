@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สมัครสมาชิก | OneSheetHub</title>
+  <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="../pic/logo2.png" alt="OneSheetHub Logo" height="40">
+      <span>OneSheet<br>Hub</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">หน้าแรก</a></li>
+      <li><a href="#" class="active">สมัครสมาชิก</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="register-container">
+      <form class="register-form">
+        <h2>สมัครสมาชิก</h2>
+        <div class="input-group">
+          <span class="icon">✉️</span>
+          <input type="email" placeholder="อีเมล" required>
+        </div>
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" placeholder="รหัสผ่าน" required>
+        </div>
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" placeholder="ยืนยันรหัสผ่าน" required>
+        </div>
+        <div class="button-group">
+          <button type="button" class="cancel">ยกเลิก</button>
+          <button type="submit" class="submit">ยืนยัน</button>
+        </div>
+      </form>
+      <script type="module" src="../js/register.js"></script>
+    </div>
+  </main>
+</body>
+</html>
