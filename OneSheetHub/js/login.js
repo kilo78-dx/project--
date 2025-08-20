@@ -21,4 +21,3 @@ loginForm.addEventListener('submit', async (e) => {
     loginError.textContent = 'อีเมลหรือรหัสผ่านไม่ถูกต้อง';
   }
 });
-

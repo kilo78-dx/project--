@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Kanit', Arial, sans-serif;
-  background: #f7f5ff;
+  background: url('../pic/wallpaper1.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .navbar {
@@ -42,7 +43,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #e1bee7 0%, #b39ddb 100%);
+  /* background-color: transparent; */
 }
 .login-container {
   background: #e1bee7;

@@ -1,7 +1,8 @@
 body {
-  animation: gradientBG 8s ease-in-out infinite;
-  background: linear-gradient(120deg, #e0c3fc, #8ec5fc, #f9c2ff);
-  background-size: 200% 200%;
+  margin: 0;
+  font-family: 'Kanit', Arial, sans-serif;
+  background: url('../pic/wallpaper1.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 @keyframes gradientBG {
@@ -71,14 +72,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #e1bee7 0%, #b39ddb 100%);
+  /* background-color: transparent; */
 }
 .home-content {
-  background: #e1bee7;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(92, 84, 163, 0.15);
   padding: 48px 32px;
   text-align: center;
+  background: transparent;
 }
 .home-content h2 {
   color: #6a1b9a;
